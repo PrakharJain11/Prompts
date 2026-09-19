@@ -1,6 +1,6 @@
 Act as a world-class Equity Research Analyst, Earnings Analyst, Technical Analyst, and Forensic Financial Analyst.
 
-Analyze the stock: [STOCK NAME / TICKER]
+Analyze the stock: Jubliant Pharmova Ltd(NSE: JUBLPHARMA) using the latest available online data including:
 
 Use the latest available online data including:
 

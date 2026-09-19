@@ -1,13 +1,7 @@
 Act as a **World-Class Indian Equity Research Analyst, Institutional Investor, Portfolio Manager, Forensic Financial Analyst, Social-Media Intelligence Analyst, Alternative-Data Researcher and Investment Researcher**.
 
-I will provide you with an Indian listed company.
 
 ## STOCK TO ANALYSE
-
-**Company:** [ENTER COMPANY NAME]
-**NSE/BSE Symbol:** [ENTER SYMBOL]
-
-Example:
 
 **Company:** Wockhardt Ltd
 **NSE Symbol:** WOCKPHARMA
@@ -156,76 +150,76 @@ Search all combinations of:
 
 ### Company searches
 
-* "[COMPANY]"
+* "Wockhardt"
 * "[SYMBOL]"
-* "[COMPANY] stock"
-* "[COMPANY] share"
-* "[COMPANY] results"
-* "[COMPANY] earnings"
-* "[COMPANY] target"
-* "[COMPANY] valuation"
-* "[COMPANY] outlook"
-* "[COMPANY] analysis"
-* "[COMPANY] investment"
-* "[COMPANY] multibagger"
-* "[COMPANY] risk"
-* "[COMPANY] fraud"
-* "[COMPANY] governance"
+* "Wockhardt stock"
+* "Wockhardt share"
+* "Wockhardt results"
+* "Wockhardt earnings"
+* "Wockhardt target"
+* "Wockhardt valuation"
+* "Wockhardt outlook"
+* "Wockhardt analysis"
+* "Wockhardt investment"
+* "Wockhardt multibagger"
+* "Wockhardt risk"
+* "Wockhardt fraud"
+* "Wockhardt governance"
 
 ### Event searches
 
-* "[COMPANY] results"
-* "[COMPANY] concall"
-* "[COMPANY] investor presentation"
-* "[COMPANY] annual report"
-* "[COMPANY] acquisition"
-* "[COMPANY] order"
-* "[COMPANY] capex"
-* "[COMPANY] promoter"
-* "[COMPANY] pledge"
-* "[COMPANY] FII"
-* "[COMPANY] DII"
-* "[COMPANY] mutual fund"
-* "[COMPANY] bulk deal"
-* "[COMPANY] block deal"
-* "[COMPANY] insider"
-* "[COMPANY] institutional"
+* "Wockhardt results"
+* "Wockhardt concall"
+* "Wockhardt investor presentation"
+* "Wockhardt annual report"
+* "Wockhardt acquisition"
+* "Wockhardt order"
+* "Wockhardt capex"
+* "Wockhardt promoter"
+* "Wockhardt pledge"
+* "Wockhardt FII"
+* "Wockhardt DII"
+* "Wockhardt mutual fund"
+* "Wockhardt bulk deal"
+* "Wockhardt block deal"
+* "Wockhardt insider"
+* "Wockhardt institutional"
 
 ### Bear-case searches
 
 Explicitly search:
 
-* "[COMPANY] problem"
-* "[COMPANY] concern"
-* "[COMPANY] risk"
-* "[COMPANY] expensive"
-* "[COMPANY] overvalued"
-* "[COMPANY] downgrade"
-* "[COMPANY] weak"
-* "[COMPANY] debt"
-* "[COMPANY] cash flow"
-* "[COMPANY] governance"
-* "[COMPANY] accounting"
-* "[COMPANY] promoter selling"
-* "[COMPANY] pledge"
-* "[COMPANY] regulatory"
-* "[COMPANY] warning"
-* "[COMPANY] investigation"
+* "Wockhardt problem"
+* "Wockhardt concern"
+* "Wockhardt risk"
+* "Wockhardt expensive"
+* "Wockhardt overvalued"
+* "Wockhardt downgrade"
+* "Wockhardt weak"
+* "Wockhardt debt"
+* "Wockhardt cash flow"
+* "Wockhardt governance"
+* "Wockhardt accounting"
+* "Wockhardt promoter selling"
+* "Wockhardt pledge"
+* "Wockhardt regulatory"
+* "Wockhardt warning"
+* "Wockhardt investigation"
 
 ### Bull-case searches
 
 Search:
 
-* "[COMPANY] opportunity"
-* "[COMPANY] turnaround"
-* "[COMPANY] growth"
-* "[COMPANY] earnings"
-* "[COMPANY] margin"
-* "[COMPANY] rerating"
-* "[COMPANY] undervalued"
-* "[COMPANY] buy"
-* "[COMPANY] target"
-* "[COMPANY] bullish"
+* "Wockhardt opportunity"
+* "Wockhardt turnaround"
+* "Wockhardt growth"
+* "Wockhardt earnings"
+* "Wockhardt margin"
+* "Wockhardt rerating"
+* "Wockhardt undervalued"
+* "Wockhardt buy"
+* "Wockhardt target"
+* "Wockhardt bullish"
 
 ---
 
@@ -334,25 +328,25 @@ Search extensively for:
 
 Search:
 
-"[COMPANY] LinkedIn"
+"Wockhardt LinkedIn"
 
-"[COMPANY] analyst"
+"Wockhardt analyst"
 
-"[COMPANY] investment"
+"Wockhardt investment"
 
-"[COMPANY] equity research"
+"Wockhardt equity research"
 
-"[COMPANY] valuation"
+"Wockhardt valuation"
 
-"[COMPANY] results"
+"Wockhardt results"
 
-"[COMPANY] earnings"
+"Wockhardt earnings"
 
-"[COMPANY] investor"
+"Wockhardt investor"
 
-"[COMPANY] fund manager"
+"Wockhardt fund manager"
 
-"[COMPANY] portfolio"
+"Wockhardt portfolio"
 
 For meaningful posts/articles capture:
 
@@ -396,27 +390,27 @@ Search combinations such as:
 
 #[SYMBOL]
 
-#[COMPANY]
+#Wockhardt
 
-#[COMPANY]stock
+#Wockhardtstock
 
-#[COMPANY]shares
+#Wockhardtshares
 
-#[COMPANY]results
+#Wockhardtresults
 
-#[COMPANY]analysis
+#Wockhardtanalysis
 
-#[COMPANY]investment
+#Wockhardtinvestment
 
-#[COMPANY]multibagger
+#Wockhardtmultibagger
 
 Also search:
 
-"[COMPANY] Instagram"
+"Wockhardt Instagram"
 
-"[COMPANY] stock Instagram"
+"Wockhardt stock Instagram"
 
-"[COMPANY] results Instagram"
+"Wockhardt results Instagram"
 
 Do NOT give excessive weight to generic finance influencers.
 
@@ -511,25 +505,25 @@ This is extremely important.
 
 Search specifically for publicly available PDFs using combinations such as:
 
-"[COMPANY] filetype:pdf"
+"Wockhardt filetype:pdf"
 
-"[COMPANY] broker report pdf"
+"Wockhardt broker report pdf"
 
-"[COMPANY] equity research pdf"
+"Wockhardt equity research pdf"
 
-"[COMPANY] initiation pdf"
+"Wockhardt initiation pdf"
 
-"[COMPANY] result update pdf"
+"Wockhardt result update pdf"
 
-"[COMPANY] target price pdf"
+"Wockhardt target price pdf"
 
-"[COMPANY] analyst report pdf"
+"Wockhardt analyst report pdf"
 
-"[COMPANY] investor presentation pdf"
+"Wockhardt investor presentation pdf"
 
-"[COMPANY] conference call pdf"
+"Wockhardt conference call pdf"
 
-"[COMPANY] management meeting pdf"
+"Wockhardt management meeting pdf"
 
 Search Google/Bing and relevant research repositories.
 
@@ -566,29 +560,29 @@ Look for publicly available research from:
 
 Search combinations:
 
-"[COMPANY] investment thesis"
+"Wockhardt investment thesis"
 
-"[COMPANY] deep dive"
+"Wockhardt deep dive"
 
-"[COMPANY] investor thesis"
+"Wockhardt investor thesis"
 
-"[COMPANY] fundamental analysis"
+"Wockhardt fundamental analysis"
 
-"[COMPANY] valuation"
+"Wockhardt valuation"
 
-"[COMPANY] long term"
+"Wockhardt long term"
 
-"[COMPANY] portfolio"
+"Wockhardt portfolio"
 
-"[COMPANY] fund manager"
+"Wockhardt fund manager"
 
-"[COMPANY] PMS"
+"Wockhardt PMS"
 
-"[COMPANY] AIF"
+"Wockhardt AIF"
 
-"[COMPANY] investor letter"
+"Wockhardt investor letter"
 
-"[COMPANY] research report"
+"Wockhardt research report"
 
 Give higher weight to **original long-form research** than short social-media opinions.
 
@@ -1363,4 +1357,4 @@ If information is unavailable, say:
 
 ## STOCK TO ANALYSE
 
-**[ENTER COMPANY NAME / NSE SYMBOL]**
+**[Wockhardt Ltd / NSE WOCKPHARMA]**
