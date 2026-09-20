@@ -44,13 +44,9 @@ Do not make an investment recommendation or assign a buy/sell rating.
 
 # 1. COMPANY INPUT
 
-**Company:** [COMPANY NAME]
+**Company:** WOCKHARDT ltd
 
-**NSE Symbol:** [NSE SYMBOL]
-
-**BSE Code:** [BSE CODE]
-
-**Analysis Date:** [DATE]
+**NSE Symbol:** WOCKPHARMA
 
 Use the latest available information as of the analysis date.
 
@@ -62,13 +58,13 @@ The forecast must begin from the **next upcoming reporting quarter after the lat
 
 # 2. PRIMARY OUTPUT — 4 UPCOMING QUARTERS
 
-The most important output MUST be a **quarter-by-quarter forecast for at least the next 4 quarters**.
+The most important output MUST be a **quarter-by-quarter forecast for at least the next 8 quarters**.
 
 For example:
 
 If the latest reported quarter is Q2 FY27:
 
-**Q3 FY27 → Q4 FY27 → Q1 FY28 → Q2 FY28**
+**Q3 FY27 → Q4 FY27 → Q1 FY28 → Q2 FY28 → Q3 FY28 → Q4 FY28 → Q1 FY29 → Q2 FY29 **
 
 Do not provide only annual forecasts.
 
