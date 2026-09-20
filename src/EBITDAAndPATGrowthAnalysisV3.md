@@ -45,9 +45,10 @@ Do not make an investment recommendation or assign a buy/sell rating.
 
 # 1. COMPANY INPUT
 
-**Company:** WOCKHARDT ltd
+**Company:** Pricol Ltd
 
-**NSE Symbol:** WOCKPHARMA
+
+**NSE Symbol:** PRICOLLTD
 
 Use the latest available information as of the analysis date.
 
