@@ -45,10 +45,9 @@ Do not make an investment recommendation or assign a buy/sell rating.
 
 # 1. COMPANY INPUT
 
-**Company:** Pricol Ltd
+**Company:** RBL Bank Ltd
 
-
-**NSE Symbol:** PRICOLLTD
+**NSE Symbol:** RBLBANK
 
 Use the latest available information as of the analysis date.
 
