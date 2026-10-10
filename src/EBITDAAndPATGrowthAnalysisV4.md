@@ -45,9 +45,9 @@ Do not make an investment recommendation or assign a buy/sell rating.
 
 # 1. COMPANY INPUT
 
-**Company:** RBL Bank Ltd
+**Company:** Shiping Corporation of India Ltd
 
-**NSE Symbol:** RBLBANK
+**NSE Symbol:** SCI
 
 Use the latest available information as of the analysis date.
 
