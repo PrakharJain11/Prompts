@@ -1,32 +1,44 @@
-# 6-Month X (Twitter) + LinkedIn Investor Sentiment, Discussion & Stock Target Analysis
+# 15-Day X (Twitter) + LinkedIn + Broker Research Investor Sentiment, Discussion & Stock Target Analysis
 
 You are an **institutional-quality equity research, social-media intelligence and market-sentiment analyst** specializing in Indian equities.
 
 I will provide:
 
-**COMPANY NAME: Shipping Corporation of India Ltd**
+**COMPANY NAME: Neogen Chemicals Limited **
 
-**NSE/BSE TICKER: SCI **
+**NSE/BSE TICKER: NEOGEN **
 
-Your task is to conduct a **comprehensive six-month analysis of public discussions about this company on X (Twitter) and LinkedIn**, identify bullish, bearish and neutral sentiment, determine the major investor narratives, identify information cascades, and—where sufficient evidence exists—estimate a fundamental valuation range.
+**COMPANY NAME: Biocon Limited **
+
+**NSE/BSE TICKER: BIOCON **
+
+**COMPANY NAME: Bharat Earth Movers Limited **
+
+**NSE/BSE TICKER: BEML **
+
+**COMPANY NAME: Bharat Heavy Electricals Limited **
+
+**NSE/BSE TICKER: BHEL **
+
+Your task is to conduct a **comprehensive analysis of public discussions about this company on X (Twitter) and LinkedIn, plus broker research reports published in the last 15 calendar days only**. Identify bullish, bearish and neutral sentiment, determine the latest investor narratives, identify information cascades, summarize recent broker views and target prices, and—where sufficient evidence exists—estimate a fundamental valuation range. The 15-day restriction applies to every social-media post and broker report included as current evidence. Older sources may be used only for clearly labelled background or to verify fundamentals, never as evidence of current-period sentiment or as a qualifying recent broker report.
 
 Do NOT treat social-media sentiment as a substitute for fundamental analysis.
 
 ---
 
-# 1. ANALYSIS PERIOD
+# 1. ANALYSIS PERIOD — STRICT LAST 15 DAYS
 
-Analyze:
+Analyze only:
 
-**[TODAY MINUS 6 MONTHS] → [TODAY]**
+**[TODAY MINUS 14 DAYS] → [TODAY] (15 calendar dates, inclusive)**
 
-Clearly state the exact start and end dates.
+At the beginning of the report, calculate and state the exact start date and end date using the actual current date. Use the company's local market timezone (India Standard Time) for Indian equities. Include a post or report only if its original publication date falls within this window. If the publication date cannot be verified, exclude it from the scored sample and list it separately as unverified. Do not silently widen the window because results are sparse.
 
-Analyze **X and LinkedIn separately first**, then combine the findings.
+Analyze **X, LinkedIn and broker reports separately first**, then combine the findings where appropriate.
 
 ---
 
-# 2. PLATFORM-SPECIFIC SEARCH
+# 2. PLATFORM-SPECIFIC SEARCH — LAST 15 DAYS ONLY
 
 ## A. X / TWITTER
 
@@ -58,6 +70,8 @@ Search broadly for:
 * Industry keywords associated with the company
 
 Search relevant hashtags and ticker variations.
+
+**Date filter:** Include only original X posts published within the defined 15-day window. Use date filters where available and verify dates from the original post/page. Exclude older posts even if they reappear in recent search results.
 
 ---
 
@@ -96,21 +110,57 @@ Search public LinkedIn content for:
 
 Also search combinations such as:
 
-"[Company Name]" + "growth"
-"[Company Name]" + "revenue"
-"[Company Name]" + "margin"
-"[Company Name]" + "order"
-"[Company Name]" + "capex"
-"[Company Name]" + "valuation"
-"[Company Name]" + "investment"
-"[Company Name]" + "stock"
-"[Company Name]" + "results"
+"Northan Arc" + "growth"
+"Northan Arc" + "revenue"
+"Northan Arc" + "margin"
+"Northan Arc" + "order"
+"Northan Arc" + "capex"
+"Northan Arc" + "valuation"
+"Northan Arc" + "investment"
+"Northan Arc" + "stock"
+"Northan Arc" + "results"
 
 Do not restrict the LinkedIn analysis to the company's official page.
 
+**Date filter:** Include only original public LinkedIn posts published within the defined 15-day window. Verify the post's publication date. Exclude older posts, reposts of old material, and search results that merely mention the company without a verifiable publication date.
+
+
 ---
 
-# 3. IMPORTANT DATA-ACCESS RULE
+## C. BROKER REPORTS — LAST 15 DAYS ONLY
+
+Search for broker/institutional research reports published during the same exact 15-calendar-day window. Search broker websites, research portals where publicly accessible, exchange/company-linked research references, and reputable financial databases or news coverage that identifies the original report.
+
+Search for:
+* Company name and ticker + "broker report"
+* Company name and ticker + "research report"
+* Company name and ticker + "target price" / "price target"
+* Company name and ticker + "buy" / "hold" / "sell" / "upgrade" / "downgrade"
+* Company name and ticker + "results review" / "earnings update" / "initiation"
+* Broker names + company name/ticker
+* Recent target-price revisions and estimate changes
+
+Include reports from relevant firms such as Motilal Oswal, ICICI Securities/ICICI Direct, HDFC Securities, Kotak Institutional Equities, JM Financial, Anand Rathi, Nuvama, IIFL, Emkay, Nirmal Bang, Elara, and other identifiable research providers. This list is illustrative, not exhaustive.
+
+For each qualifying report, capture:
+* Broker/research provider
+* Analyst name, if publicly available
+* Exact publication date
+* Rating/recommendation
+* Target price and prior target price, if stated
+* Current price used by the analyst, if stated
+* Forecast period
+* Revenue, EBITDA, PAT/EPS estimates and changes, if stated
+* Valuation method and key assumptions
+* Main bullish thesis and key risks
+* Direct report URL, or a clearly labelled search-result/reference URL if the report itself is not publicly accessible
+
+**Strict broker-report rule:** A news article published within the last 15 days that refers to an older broker report does not make that older report eligible. Record the original report date and classify it as **outside the 15-day window**. Do not present it as a recent report. If no qualifying broker report is found, explicitly state that none was verified; do not substitute older reports.
+
+
+---
+
+# 4. IMPORTANT DATA-ACCESS RULE
 
 Do NOT claim that you searched "all tweets" or "all LinkedIn posts" if the platform/search limitations prevent exhaustive historical retrieval.
 
@@ -124,13 +174,13 @@ Do not fabricate posts, usernames, engagement numbers, dates or URLs.
 
 ---
 
-# 4. DATA COLLECTION
+# 5. DATA COLLECTION
 
 For each meaningful X or LinkedIn post, capture where publicly available:
 
 | Field                 | Details                                                              |
 | --------------------- | -------------------------------------------------------------------- |
-| Platform              | X / LinkedIn                                                         |
+| Platform              | X / LinkedIn / Broker Report                                         |
 | Date                  | Publication date                                                     |
 | Author                | Name/username                                                        |
 | Account Type          | Investor / Analyst / Company / Executive / Employee / Media / Retail |
@@ -151,7 +201,7 @@ Never invent missing data.
 
 ---
 
-# 5. REMOVE NOISE AND DUPLICATES
+# 6. REMOVE NOISE AND DUPLICATES
 
 Identify and exclude or separately classify:
 
@@ -182,7 +232,7 @@ This distinction is extremely important.
 
 ---
 
-# 6. SENTIMENT CLASSIFICATION
+# 7. SENTIMENT CLASSIFICATION
 
 Classify meaningful posts as:
 
@@ -230,7 +280,7 @@ Purely factual posts without a directional investment view.
 
 ---
 
-# 7. X SENTIMENT SCORE
+# 8. X SENTIMENT SCORE
 
 Calculate:
 
@@ -250,7 +300,7 @@ Also calculate an engagement-weighted score where reliable engagement data exist
 
 ---
 
-# 8. LINKEDIN SENTIMENT SCORE
+# 9. LINKEDIN SENTIMENT SCORE
 
 Calculate separately:
 
@@ -268,7 +318,7 @@ Do NOT assume LinkedIn sentiment is equivalent to X sentiment.
 
 ---
 
-# 9. PLATFORM COMPARISON
+# 10. PLATFORM COMPARISON
 
 Create:
 
@@ -298,7 +348,7 @@ Do not assume this automatically; verify it from the collected data.
 
 ---
 
-# 10. ACCOUNT / AUTHOR QUALITY
+# 11. ACCOUNT / AUTHOR QUALITY
 
 Classify authors into:
 
@@ -332,7 +382,7 @@ Explain why important authors were classified in each category.
 
 ---
 
-# 11. CREDIBILITY-WEIGHTED SENTIMENT
+# 12. CREDIBILITY-WEIGHTED SENTIMENT
 
 Calculate three different sentiment measures:
 
@@ -360,7 +410,7 @@ Do not allow one viral post or one highly followed account to dominate the entir
 
 ---
 
-# 12. COMBINED SOCIAL SENTIMENT
+# 13. COMBINED SOCIAL SENTIMENT
 
 After analyzing X and LinkedIn independently, calculate a combined sentiment indicator.
 
@@ -394,7 +444,7 @@ The confidence level should depend on:
 
 ---
 
-# 13. TOP BULLISH THEMES
+# 14. TOP BULLISH THEMES
 
 Identify the strongest recurring bullish narratives.
 
@@ -425,7 +475,7 @@ Examples:
 
 ---
 
-# 14. TOP BEARISH THEMES
+# 15. TOP BEARISH THEMES
 
 Perform the same analysis.
 
@@ -442,7 +492,7 @@ Identify:
 
 ---
 
-# 15. SOCIAL SENTIMENT VS FUNDAMENTALS
+# 16. SOCIAL SENTIMENT VS FUNDAMENTALS
 
 Create:
 
@@ -473,7 +523,7 @@ Classify each claim as:
 
 ---
 
-# 16. INFORMATION CASCADES
+# 17. INFORMATION CASCADES
 
 Identify major events that generated unusual discussion on either platform.
 
@@ -508,9 +558,9 @@ Do not claim causation without evidence.
 
 ---
 
-# 17. SIX-MONTH SENTIMENT TREND
+# 18. SIX-MONTH SENTIMENT TREND
 
-Divide the six-month period into monthly intervals.
+Divide the 15-day period into daily intervals.
 
 Create:
 
@@ -529,7 +579,7 @@ Create charts where possible.
 
 ---
 
-# 18. INVESTOR POLARIZATION
+# 19. INVESTOR POLARIZATION
 
 Measure disagreement.
 
@@ -549,7 +599,7 @@ Explain the calculation.
 
 ---
 
-# 19. TARGET PRICE SEARCH
+# 20. TARGET PRICE SEARCH
 
 Search both X and LinkedIn specifically for:
 
@@ -595,7 +645,7 @@ Do not average all targets together.
 
 ---
 
-# 20. FUNDAMENTAL VALUATION
+# 21. FUNDAMENTAL VALUATION
 
 If sufficient reliable information is available, independently calculate a valuation range.
 
@@ -625,7 +675,7 @@ Do not manufacture unavailable financial information.
 
 ---
 
-# 21. BEAR / BASE / BULL TARGET RANGE
+# 22. BEAR / BASE / BULL TARGET RANGE
 
 Where data supports it:
 
@@ -641,7 +691,7 @@ Clearly label this as a **valuation estimate**, not a guaranteed future price.
 
 ---
 
-# 22. SOCIAL SENTIMENT VS VALUATION
+# 23. SOCIAL SENTIMENT VS VALUATION
 
 Create a useful matrix:
 
@@ -655,7 +705,7 @@ Explain where the company currently falls based on the evidence.
 
 ---
 
-# 23. SOCIAL-MEDIA PUMP / MANIPULATION RISK
+# 24. SOCIAL-MEDIA PUMP / MANIPULATION RISK
 
 Look for:
 
@@ -675,7 +725,7 @@ Do not accuse individuals of manipulation without reliable evidence.
 
 ---
 
-# 24. SOURCE CROSS-CHECK
+# 25. SOURCE CROSS-CHECK
 
 Cross-check major social-media claims against:
 
@@ -703,7 +753,7 @@ Clearly classify information as:
 
 ---
 
-# 25. FINAL EXECUTIVE DASHBOARD
+# 26. FINAL EXECUTIVE DASHBOARD
 
 Start the final report with:
 
@@ -758,39 +808,41 @@ Start the final report with:
 
 ---
 
-# 26. FINAL REPORT STRUCTURE
+# 28. FINAL REPORT STRUCTURE
 
 Produce the report in this order:
 
 1. Executive Dashboard
 2. Current Stock Information
-3. Research Methodology
+3. Research Methodology and Exact 15-Day Date Window
 4. X Data Summary
 5. LinkedIn Data Summary
-6. X Sentiment Analysis
-7. LinkedIn Sentiment Analysis
-8. Combined Social Sentiment
-9. Engagement-Weighted Sentiment
-10. Credibility-Weighted Sentiment
-11. Top Bullish Narratives
-12. Top Bearish Narratives
-13. Investor/Author Quality
-14. Information Cascades
-15. Six-Month Sentiment Trend
-16. Investor Polarization
-17. Target Price Discussions
-18. Fundamental Valuation
-19. Bear/Base/Bull Valuation
-20. Social Sentiment vs Fundamentals
-21. Pump/Manipulation Risk Indicators
-22. Key Catalysts
-23. Key Risks
-24. Source & URL Database
-25. Data Quality & Limitations
+6. Broker Reports Published in the Last 15 Days
+7. X Sentiment Analysis
+8. LinkedIn Sentiment Analysis
+9. Broker View Summary and Target-Price Revisions
+10. Combined Social Sentiment
+11. Engagement-Weighted Sentiment
+12. Credibility-Weighted Sentiment
+13. Top Bullish Narratives
+14. Top Bearish Narratives
+15. Investor/Author Quality
+16. Information Cascades
+17. 15-Day Sentiment Trend (daily where data permits)
+18. Investor Polarization
+19. Target Price Discussions (social posts and broker reports kept separate)
+20. Fundamental Valuation
+21. Bear/Base/Bull Valuation
+22. Social Sentiment vs Fundamentals
+23. Pump/Manipulation Risk Indicators
+24. Key Catalysts
+25. Key Risks
+26. Source & URL Database
+27. Data Quality & Limitations
 
 ---
 
-# 27. SOURCE URL REQUIREMENT
+# 28. SOURCE URL REQUIREMENT
 
 For every important piece of evidence, provide the **direct URL whenever publicly available**.
 
@@ -815,11 +867,12 @@ If only a search result is available, clearly label it as:
 
 ---
 
-# 28. CRITICAL ANALYTICAL PRINCIPLES
+# 29. CRITICAL ANALYTICAL PRINCIPLES
 
 Follow these rules strictly:
 
 1. Do not fabricate data.
+2. Apply the strict 15-calendar-day publication-date filter to all social posts and broker reports used as current-period evidence; do not widen the window.
 2. Do not fabricate X posts or LinkedIn posts.
 3. Do not fabricate engagement statistics.
 4. Do not fabricate target prices.
@@ -844,7 +897,7 @@ Follow these rules strictly:
 
 The purpose of this research is to answer:
 
-> **What has the investment community been saying about [COMPANY NAME] on X and LinkedIn during the last six months?**
+> **What has the investment community been saying about Northan Arc on X and LinkedIn during the last 15 days, and what have brokers published about it during the same period?**
 
 And more specifically:
 
@@ -856,7 +909,7 @@ And more specifically:
 
 > **Are social-media narratives supported by company fundamentals?**
 
-> **What target prices are being discussed, by whom, and using what methodology?**
+> **What target prices are being discussed on social media, and what target prices or estimate revisions have brokers published within the last 15 days? What methodology supports each?**
 
 > **What fundamental valuation range is supported by reasonable assumptions?**
 
